@@ -21,7 +21,26 @@ const { title } = Astro.props
 </html>
 <style is:global>
   :root {
-    --primary: #039be5;
+    --primary: #748ffc;
+    --primary-hover: #91a7ff;
+    --background-color: #343a3f;
+    --card-background-color: #495057;
+  }
+  h1 {
+    --font-size: 2rem;
+    --typography-spacing-vertical: 1rem;
+  }
+  body > nav {
+    /* --nav-link-spacing-vertical: 1rem; */
+    /* -webkit-backdrop-filter: saturate(180%) blur(20px); */
+    /* z-index: 99; */
+    position: fixed;
+    /* top: 0; */
+    /* right: 0; */
+    /* left: 0; */
+    /* backdrop-filter: saturate(180%) blur(20px); */
+    background-color: #343a40;
+    box-shadow: 0 1px 0 #495057;
   }
   /* :root { */
   /* 	--accent: 136, 58, 234; */
